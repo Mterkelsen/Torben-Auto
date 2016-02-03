@@ -22,13 +22,13 @@
     <a href="/torben/forside.php" ><img class="logo center-block" src="/torben/images/logo/logo.png" /></a>
 </div>
 <div class="container">
-<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+<div id="custom-bootstrap-menu" class="navbar navbar-default bg-grey bg-dark" role="navigation">
 
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse navbar-menubuilder">
+        <div class="collapse navbar-collapse navbar-menubuilder bg-dark">
             <ul class="nav navbar-nav navbar-right ">
                 <li ><a href="forside.php" class="hvr-sweep-to-top">Forside</a></li>
                 <li ><a href="nyheder.php" class="hvr-sweep-to-top">Nyheder</a></li>
