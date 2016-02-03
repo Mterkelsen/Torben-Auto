@@ -74,7 +74,7 @@ html,body{
 
 .header-container {
     height:auto;
-    min-height:390px;
+    min-height:280px;
 }
 
 .header-image {
@@ -198,7 +198,17 @@ html,body{
 
 
 /*Custom css*/
+.mekaniker_a{
+    color:whitesmoke;
+    font-size:24px;
 
+}
+
+.veteran_a{
+    color:whitesmoke;
+    font-size:24px;
+
+}
 
 h1 {
 
@@ -270,11 +280,14 @@ h5 {
 
 }
 
+.bg-mek{background: url('/torben/images/thumbnails/mekanikerbil.jpg') no-repeat; background-size:cover; min-height:350px;}
+.bg-vet{background: url('/torben/images/thumbnails/veteranbil.jpg') no-repeat; background-size:cover; min-height:350px;}
+
 .f-chalk {font-family:'dirty-chalk';}
 .d-inline {display:inline-block;}
 .cl-yellow {color:#ffa11b;}
 
-.bg-yellow{background-color:#ffa11b;}
+.bg-white{background-color:whitesmoke;}
 
 .shadow {-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
     filter: url(#drop-shadow);
