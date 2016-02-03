@@ -406,7 +406,7 @@ h5 {
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";}
 .border-yellow{border:2px solid #ffd900;}
-
+.bg-alum{background:url('/torben/images/patterns/brushed-alum.png') repeat;}
 .cl-white{color:white;}
 
 .bg-route{background: url('/torben/images/torben_header.gif') no-repeat;
