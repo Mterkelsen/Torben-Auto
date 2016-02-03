@@ -47,14 +47,14 @@ html,body{
     background-color: rgba(255, 217, 0, 1);
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #ffd900;
+    border-color: rgba(252, 212, 50, 1);
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #ffd900;
+    background-color: rgba(252, 212, 50, 1);
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffd900;
+    background-color: rgba(252, 212, 50, 1);
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
@@ -94,12 +94,12 @@ html,body{
 /* NEWS TABS CSS */
 .event_hr {
     width:100%;
-    border-color:#ffa11b;
+    border-color:rgba(252, 212, 50, 1);
 }
 
 .nav-tabs > li > a:hover {
-    background-color:#ffa11b;
-    border-color:#ffa11b;
+    background-color:rgba(252, 212, 50, 1);
+    border-color:rgba(252, 212, 50, 1);
     color:whitesmoke;
     border-radius:0;
 
@@ -114,15 +114,15 @@ html,body{
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus  {
-    background-color:#ffa11b;
-    border-color:#ffa11b;
+    background-color:rgba(252, 212, 50, 1);
+    border-color:rgba(252, 212, 50, 1);
     color:whitesmoke;
     border-radius:0;
 
 }
 
 .nav-tabs {
-    border-color:#ffa11b;
+    border-color:rgba(252, 212, 50, 1);
 
 }
 .nav-tabs > li > a{
@@ -148,7 +148,7 @@ html,body{
 
 
 /* Form css */
-.p-error {font-size: 1.2em; color:#ffa11b; }
+.p-error {font-size: 1.2em; color:rgba(252, 212, 50, 1); }
 .medlemslogin_container {
     margin-top:30%;
 
@@ -198,16 +198,51 @@ html,body{
 
 
 /*Custom css*/
-.mekaniker_a{
+.mekaniker_a > a{
     color:whitesmoke;
     font-size:24px;
+    width:100% !important;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    -moz-border-radius-bottomleft: 5px !important;
+    -moz-border-radius-bottomright: 5px !important;
+    -webkit-border-bottom-left-radius: 5px !important;
+    -webkit-border-bottom-right-radius: 5px !important;
 
 }
 
-.veteran_a{
+.mekaniker_a > a:hover{
+    color:rgba(81, 82, 75, 1) !important;
+    text-decoration:none;
+}
+
+.veteran_a > a{
     color:whitesmoke;
     font-size:24px;
+    width:100% !important;
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    -moz-border-radius-bottomleft: 8px !important;
+    -moz-border-radius-bottomright: 8px !important;
+    -webkit-border-bottom-left-radius: 8px !important;
+    -webkit-border-bottom-right-radius: 8px !important;
 
+
+}
+.veteran_a > a:hover{
+    color:rgba(81, 82, 75, 1) !important;
+    text-decoration:none;
+}
+
+.mek_read_more{
+    background-color:transparent !important;
+    color:transparent !important;
+    border:none !important;
+}
+.vet_read_more{
+    background-color:transparent !important;
+    color:transparent !important;
+    border:none !important;
 }
 
 h1 {
@@ -216,7 +251,7 @@ h1 {
      color:whitesmoke;
      font-size:34px !important;
      position:relative;
-    border:1px solid #ffa11b;
+    border:1px solid rgba(252, 212, 50, 1);
      z-index:4;
     width:50%;
     text-align:center;
@@ -255,7 +290,7 @@ h4 {
 }
 
 h5 {
-    color:#ffa11b;
+    color:#ffd900;
     font-size:1em;
 }
 
@@ -272,12 +307,19 @@ h5 {
     margin-top:-75px;
     margin-bottom:33px;
     color:whitesmoke;
-    background-color:#ffa11b;
+    background-color:#ffd900;
 
+}
+.btn-danger {
+    background-color:#ffd900 !important;
+    border-color:#ffd900 !important;
+    color:rgba(81, 82, 75, 1) !important;
 
-
-
-
+}
+.btn-danger:hover {
+    background-color: rgba(255, 189, 38, 1) !important;
+    border-color:rgba(255, 189, 38, 1) !important;
+    color:rgba(81, 82, 75, 1) !important;
 }
 
 .bg-mek{background: url('/torben/images/thumbnails/mekanikerbil.jpg') no-repeat; background-size:cover; min-height:350px;}
@@ -285,7 +327,7 @@ h5 {
 
 .f-chalk {font-family:'dirty-chalk';}
 .d-inline {display:inline-block;}
-.cl-yellow {color:#ffa11b;}
+.cl-yellow {color:#ffd900;}
 
 .bg-white{background-color:whitesmoke;}
 
@@ -293,7 +335,7 @@ h5 {
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";}
-.border-yellow{border:2px solid #ffa11b;}
+.border-yellow{border:2px solid #ffd900;}
 
 .cl-white{color:white;}
 
@@ -316,6 +358,7 @@ h5 {
 .mg-top-less{margin-top:15px;}
 .mg-top-none{margin-top:0;}
 .mg-bottom{ margin-bottom:50px;}
+.mg-bot{margin-bottom:35px !important;}
 .margin-rl {
     margin-right:10px;
     margin-left:10px;

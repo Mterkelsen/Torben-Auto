@@ -1594,7 +1594,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #ffd900;
+    background: rgba(252, 212, 50, 1);
 
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
@@ -1731,7 +1731,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098d1;
+    background: rgba(252, 212, 50, 1);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 0;
