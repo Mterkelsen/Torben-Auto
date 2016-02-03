@@ -34,7 +34,7 @@ html,body{
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: rgba(240, 213, 9, 1);
-    background-color: rgba(82, 82, 82, 1);
+
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
@@ -360,8 +360,8 @@ h4 {
 }
 
 h5 {
-    color:#ffd900;
-    font-size:1em;
+    color:rgba(252, 212, 50, 1);
+    font-size:3em;
 }
 
 
@@ -377,12 +377,12 @@ h5 {
     margin-top:-75px;
     margin-bottom:33px;
     color:whitesmoke;
-    background-color:#ffd900;
+    background-color:rgba(252, 212, 50, 1);
 
 }
 .btn-danger {
-    background-color:#ffd900 !important;
-    border-color:#ffd900 !important;
+    background-color:rgba(252, 212, 50, 1) !important;
+    border-color:rgba(252, 212, 50, 1) !important;
     color:rgba(81, 82, 75, 1) !important;
 
 }
@@ -397,16 +397,19 @@ h5 {
 
 .f-chalk {font-family:'dirty-chalk';}
 .d-inline {display:inline-block;}
-.cl-yellow {color:#ffd900;}
+.cl-yellow {color:rgba(252, 212, 50, 1);}
 .bg-yellow{background-color:rgba(252, 212, 50, 1);}
 .bg-white{background-color:whitesmoke;}
-.bg-grey{background-color: rgba(81, 82, 75, 1);}
+.bg-grey{background-color: rgba(81, 82, 75, 1) !important;}
+.bg-alum{background:url('/torben/images/patterns/brushed-alum.png') repeat;}
+.bg-carbon{background:url('/torben/images/patterns/carbon-fibre.png') repeat;}
+.bg-dark{background:url('/torben/images/patterns/dark-matter.png') repeat;}
 .shadow {-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";}
-.border-yellow{border:2px solid #ffd900;}
-.bg-alum{background:url('/torben/images/patterns/brushed-alum.png') repeat;}
+.border-yellow{border:2px solid rgba(252, 212, 50, 1);}
+
 .cl-white{color:white;}
 
 .bg-route{background: url('/torben/images/torben_header.gif') no-repeat;
