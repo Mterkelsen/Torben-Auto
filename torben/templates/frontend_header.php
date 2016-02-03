@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/torben/css/bootstrap.css" rel="stylesheet" />
@@ -8,11 +9,12 @@
     <link href="/torben/css/hover.css" rel="stylesheet" media="all">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="/torben/js/bootstrap.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
 
 
 
-    <title>ESR - Menu</title>
-    <meta name="description" content="Restauranten hj�lper dig - til et sundere og bedre liv"/>
+    <title>Torben's Auto</title>
+    <meta name="description" content="Hos Torben's Auto hjælper vi dig gerne, når du har problemer med din bil"/>
 
 </head>
 <body>
