@@ -14,6 +14,7 @@ html,body{
     background-size:cover;
     z-index:1;
     color:whitesmoke;
+    background-attachment: fixed;
 
 
 
@@ -197,9 +198,27 @@ html,body{
 }
 
 
-/*Custom css*/
+/* FRONT PAGE INFO BOXES*/
+.veteran_a {
+
+    border-left: 3px solid rgba(252, 212, 50, 1);
+}
+.mekaniker_a{
+    border-right: 3px solid rgba(252, 212, 50, 1);
+}
+
+@keyframes Smooth {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+@-webkit-keyframes Smooth {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
 .mekaniker_a > a{
-    color:whitesmoke;
+    color:rgba(252, 212, 50, 1);
+    text-shadow: 1px 1px 2px rgb(19, 19, 19);
     font-size:24px;
     width:100% !important;
     border-bottom-left-radius: 5px !important;
@@ -217,8 +236,9 @@ html,body{
 }
 
 .veteran_a > a{
-    color:whitesmoke;
+    color:rgba(252, 212, 50, 1);
     font-size:24px;
+    text-shadow: 1px 1px 2px rgb(19, 19, 19);
     width:100% !important;
     border-bottom-left-radius: 8px !important;
     border-bottom-right-radius: 8px !important;
@@ -234,16 +254,66 @@ html,body{
     text-decoration:none;
 }
 
+.veteran_a > a:hover > .vet_read_more {
+    background-color:rgba(81, 82, 75, 1);
+    color:rgba(252, 212, 50, 1);
+    -webkit-animation: Smooth;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-delay: 0s;
+    -moz-animation: Smooth;
+    -moz-animation-duration: 0.7s;
+    -moz-animation-delay: 0s;
+    -moz-animation-timing-function: ease-in;
+    -o-animation: Smooth;
+    -o-animation-duration: 0.7s;
+    -o-animation-timing-function: ease-in;
+    -o-animation-delay: 0s;
+    animation: Smooth;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+
+}
+.mekaniker_a > a:hover > .mek_read_more {
+    background-color:rgba(81, 82, 75, 1);
+    color:rgba(252, 212, 50, 1);
+    -webkit-animation: Smooth;
+    -webkit-animation-duration: 0.7s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-delay: 0s;
+    -moz-animation: Smooth;
+    -moz-animation-duration: 0.7s;
+    -moz-animation-delay: 0s;
+    -moz-animation-timing-function: ease-in;
+    -o-animation: Smooth;
+    -o-animation-duration: 0.7s;
+    -o-animation-timing-function: ease-in;
+    -o-animation-delay: 0s;
+    animation: Smooth;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+}
 .mek_read_more{
-    background-color:transparent !important;
-    color:transparent !important;
-    border:none !important;
+    background-color:transparent;
+    color:transparent;
+    border:none;
+    z-index:4;
+    font-size:20px;
 }
 .vet_read_more{
-    background-color:transparent !important;
-    color:transparent !important;
-    border:none !important;
+    background-color:transparent;
+    color:transparent;
+    border:none;
+    z-index:4;
+    font-size:20px;
 }
+
+.vet_read_more:hover{background-color: rgb(134, 135, 128) !important;}
+.mek_read_more:hover{background-color:rgb(134, 135, 128) !important;}
+
+/*Custom css*/
 
 h1 {
 
@@ -328,9 +398,9 @@ h5 {
 .f-chalk {font-family:'dirty-chalk';}
 .d-inline {display:inline-block;}
 .cl-yellow {color:#ffd900;}
-
+.bg-yellow{background-color:rgba(252, 212, 50, 1);}
 .bg-white{background-color:whitesmoke;}
-
+.bg-grey{background-color: rgba(81, 82, 75, 1);}
 .shadow {-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
