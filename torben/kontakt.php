@@ -27,28 +27,28 @@ require_once('includes/openinghours.php')
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 floating-label-form-group controls">
 
-                                            <input aria-invalid="false" class="form-control" placeholder="Navn" id="name" required="" data-validation-required-message="Indtast dit navn." type="text">
+                                            <input aria-invalid="false" class="form-control" placeholder="Navn" id="navn" required="" data-validation-required-message="Indtast dit navn." type="text">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 floating-label-form-group controls">
 
-                                            <input class="form-control" placeholder="Email Address" id="email" required="" data-validation-required-message="Indtast din e-mail-adresse." type="email">
+                                            <input class="form-control" placeholder="E-mail Adresse" id="email" required="" data-validation-required-message="Indtast din e-mail adresse." type="email">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 floating-label-form-group controls">
 
-                                            <input class="form-control" placeholder="Phone Number" id="phone" required="" data-validation-required-message="Indtast dit telefonnummer." type="tel">
+                                            <input class="form-control" placeholder="Telefonnummer" id="telefon" required="" data-validation-required-message="Indtast dit telefonnummer." type="tel">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 floating-label-form-group controls">
 
-                                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required="" data-validation-required-message="Indtast din besked."></textarea>
+                                            <textarea rows="5" class="form-control" placeholder="Besked" id="besked" required="" data-validation-required-message="Indtast din besked."></textarea>
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
