@@ -337,6 +337,56 @@ html,body{
 
 
 }
+/*front page tri section*/
+.news_hr {
+    border-color:rgba(252, 212, 50, 1);
+    width:80%;
+}
+
+.newsbox  {
+    min-height:450px;
+    z-index:4;
+}
+.weeklybox {
+    min-height:450px;
+    z-index:4;
+}
+.gamebox {
+    min-height:450px;
+    z-index:4;
+}
+
+.minibox_header, .minibox_body, .minibox_footer {
+    min-width:100%;
+    z-index:4;
+    margin: 0 auto;
+
+
+}
+
+.minibox_header {
+    border-left:2px solid rgba(252, 212, 50, 1);
+    border-bottom:none !important;
+    border-right:2px solid rgba(252, 212, 50, 1);
+    border-top:2px solid rgba(252, 212, 50, 1);
+    background-color:rgba(252, 212, 50, 1);
+    height:70px;
+    text-align:center;
+}
+.minibox_body {
+    border-left:2px solid rgba(252, 212, 50, 1);
+    border-bottom:none !important;
+    border-right:2px solid rgba(252, 212, 50, 1);
+    border-top:none !important;
+    height:400px;
+    text-align:center;
+    padding:10px;
+}
+.minibox_footer {
+    height:70px;
+    text-align:center;
+}
+
 /*Custom css*/
 
 h1 {
@@ -387,6 +437,10 @@ h5 {
     color:rgba(252, 212, 50, 1);
     font-size:3em;
 }
+h6 {
+    color:rgba(81, 82, 75, 1) !important;
+    font-size:3em;
+}
 
 
 .black-h1 {
@@ -404,6 +458,17 @@ h5 {
     background-color:rgba(252, 212, 50, 1);
 
 }
+
+.btn-success{
+    width:100%;
+    height:inherit;
+    border: 2px solid rgba(252, 212, 50, 1) !important;
+    background-color:transparent;
+}
+.btn-success:hover{
+    color:rgba(81, 82, 75, 1) !important;
+}
+
 .btn-danger {
     background-color:rgba(252, 212, 50, 1) !important;
     border-color:rgba(252, 212, 50, 1) !important;
@@ -433,6 +498,7 @@ h5 {
 .bg-dark{background:url('/torben/images/patterns/dark-matter.png') repeat;}
 .bg-triangles{background:url('/torben/images/patterns/triangles.png') repeat;}
 .bg-cars{background:url('/torben/images/patterns/cars.png') repeat;}
+.bg-horizontal{background:url('/torben/images/backgrounds/horizontal.jpg') no-repeat; background-size:cover;}
 
 .shadow {-webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
     filter: url(#drop-shadow);
