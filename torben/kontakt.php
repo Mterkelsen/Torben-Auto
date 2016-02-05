@@ -11,44 +11,46 @@ require_once('includes/openinghours.php')
 
 <div class="container mg-top">
         <div class="col-md-12 bg-opacity border-yellow">
-            <div class="col-md-12 col-center mg-top">
+            <div class="col-md-12 mg-top">
                 <section id="contact">
 
 
                             <div class="col-lg-12">
                                 <div class="row">
                                     <div class="col-lg-12 text-center"">
-                                        <h3 class="text-center">Kontakt</h3>
+                                        <h5 class="text-center txt-shadow">Kontakt</h5>
+                                            <hr class="hr-news box-shadow">
                                     </div>
                                 </div>
                                 <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                                 <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                                 <form name="sentMessage" id="contactForm" novalidate="">
-                                    <div class="row control-group mg-top">
+                                    <div class="row control-group">
                                         <div class="form-group col-xs-12 floating-label-form-group controls">
 
-                                            <input aria-invalid="false" class="form-control" placeholder="Navn" id="navn" required="" data-validation-required-message="Indtast dit navn." type="text">
+                                            <input aria-invalid="false" class="form-control2" placeholder="Navn" id="navn" required="" data-validation-required-message="Indtast dit navn." type="text">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="row control-group">
+                                        <div class="form-group col-xs-12 floating-label-form-group controls ">
+
+                                            <input class="form-control2 border-yellow" placeholder="E-mail Adresse" id="email" required="" data-validation-required-message="Indtast din e-mail adresse." type="email">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 floating-label-form-group controls">
 
-                                            <input class="form-control" placeholder="E-mail Adresse" id="email" required="" data-validation-required-message="Indtast din e-mail adresse." type="email">
+                                            <input class="form-control2 border-yellow" placeholder="Telefonnummer" id="telefon" required="" data-validation-required-message="Indtast dit telefonnummer." type="tel">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
                                     <div class="row control-group">
                                         <div class="form-group col-xs-12 floating-label-form-group controls">
 
-                                            <input class="form-control" placeholder="Telefonnummer" id="telefon" required="" data-validation-required-message="Indtast dit telefonnummer." type="tel">
-                                            <p class="help-block text-danger"></p>
-                                        </div>
-                                    </div>
-                                    <div class="row control-group">
-                                        <div class="form-group col-xs-12 floating-label-form-group controls">
-
-                                            <textarea rows="5" class="form-control" placeholder="Besked" id="besked" required="" data-validation-required-message="Indtast din besked."></textarea>
+                                            <textarea rows="5" class="form-control2 border-yellow" placeholder="Besked" id="besked" required="" data-validation-required-message="Indtast din besked."></textarea>
                                             <p class="help-block text-danger"></p>
                                         </div>
                                     </div>
@@ -66,7 +68,8 @@ require_once('includes/openinghours.php')
 
         </div>
             <div class="col-md-12">
-                <h3 class="text-center">Åbningstider</h3>
+                <h5 class="text-center txt-shadow">Åbningstider</h5>
+                <hr class="hr-news box-shadow">
                     <div class="col-md-12">
 
                         <?php
@@ -97,8 +100,41 @@ require_once('includes/openinghours.php')
 
 
 <style>
-    .col-center{
+    .form-control2 {
+        display: block;
+        width: 100%;
+        height: 70px;
+        padding: 6px 14px;
+        font-size: 18px;
+        line-height: 1.42857143;
+        color: #333;
+        border: 0;
 
+
+    }
+    .form-control2:focus {
+        border-color: whitesmoke;
+        outline: 0;
+
+    }
+    .form-control2::-moz-placeholder {
+        color: #333;
+        opacity: 1;
+    }
+    .form-control2:-ms-input-placeholder {
+        color: #333;
+    }
+    .form-control2::-webkit-input-placeholder {
+        color: #333;
+    }
+    .form-control2[disabled],
+    .form-control2[readonly],
+    fieldset[disabled] .form-control2 {
+        opacity 1;
+
+    }
+    textarea.form-control2 {
+        height: auto;
     }
 </style>
 </body>
