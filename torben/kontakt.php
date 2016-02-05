@@ -10,7 +10,7 @@ require_once('includes/openinghours.php')
 
 <div class="container mg-top">
         <div class="col-md-12 bg-opacity border-yellow">
-            <div class="col-md-8">
+            <div name="col-center" class="col-md-8">
                 <section id="contact">
 
                     <div class="container">

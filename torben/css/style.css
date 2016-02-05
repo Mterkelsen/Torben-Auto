@@ -466,7 +466,10 @@ h5 {
     margin-right:10px;
     margin-left:10px;
 }
-
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 /* keep full widget on smaller screens */
 @media (max-width: 767px) {
     body {
